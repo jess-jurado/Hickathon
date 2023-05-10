@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "hackathon": {
+    "holiday-selector": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/hackathon",
+            "outputPath": "dist/holiday-selector",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "hackathon:build:production"
+              "browserTarget": "holiday-selector:build:production"
             },
             "development": {
-              "browserTarget": "hackathon:build:development"
+              "browserTarget": "holiday-selector:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hackathon:build"
+            "browserTarget": "holiday-selector:build"
           }
         },
         "test": {
@@ -102,6 +102,6 @@
     }
   },
   "cli": {
-    "analytics": "cf7c1a4d-4cf4-4e43-aae8-92a574e78160"
+    "analytics": "c4c4c9f0-3348-4a4c-966a-42a49f2ed1a2"
   }
 }
