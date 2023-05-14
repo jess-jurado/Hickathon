@@ -1,0 +1,15 @@
+CREATE DATABASE ng_users_db;
+
+USE ng_users_db;
+
+CREATE TABLE user(
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(120) NOT NULL,
+    pass VARCHAR(120) NOT NULL,
+    userName VARCHAR(120),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DROP TABLE IF EXISTS users;
+RENAME TABLE user TO users;
+DESCRIBE users;
