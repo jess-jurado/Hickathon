@@ -11,7 +11,6 @@
 ## Tecnologías utilizadas
 
 - TypeScript: Lenguaje de programación utilizado tanto en el frontend como en el backend para un desarrollo más seguro y estructurado.
-- Angular: Framework de desarrollo frontend que permite crear una interfaz de usuario interactiva y eficiente.
 - Node.js: Entorno de ejecución del lado del servidor que facilita la construcción de una API robusta y escalable.
 - Otras tecnologías: Además de TypeScript, Angular y Node.js, se han utilizado otras tecnologías y bibliotecas para satisfacer los requisitos del proyecto. Estas tecnologías pueden incluir bases de datos, autenticación de usuarios, pruebas unitarias, entre otras.
 
